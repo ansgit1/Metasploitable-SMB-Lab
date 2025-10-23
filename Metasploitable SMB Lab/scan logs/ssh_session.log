@@ -1,0 +1,49 @@
+Script started on 2025-10-23 17:29:27+05:30 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="80" LINES="24"]
+                                                                                ]0;ansar@kali: ~[0m[27m[24m[J[32m┌──([1m[32m[34mansar㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[?1l>[?2004l
+                                                                                ]0;ansar@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mansar㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[4m[37mc[24m[39m[4m[37mc[24m[39m[38;2;153;153;153mlear[39m[4m[37mc[4m[37ml[24m[39m[4m[37mc[4m[37ml[4m[37md[24m[39m[39m [39m [4m[37mc[4m[37ml[24m[39m[24m[39m [38;2;153;153;153mear[39m[24m[36mc[24m[36ml[36me[36ma[36mr[39m[?1l>[?2004l
+[H[2J[3J                                                                                ]0;ansar@kali: ~
+[0m[27m[24m[J[32m┌──([1m[32m[34mansar㉿kali[0m[34m[32m)-[[1m[32m[39m~[0m[32m]
+└─[1m[32m[34m$[0m[34m[39m [K[?1h=[?2004h[7m[36mssh[39m[7m [7m[32m-oHostKeyAlgorithms=+ssh-rsa[39m[7m [7m[32m-oPubkeyAcceptedKeyTypes=+ssh-rsa[39m[7m msfadmin@[7m1[7m92.168.229.130[27m[K
+[K[K[A[A[4C[27m[36ms[27m[36ms[27m[36mh[39m[27m [27m[32m-[27m[32mo[27m[32mH[27m[32mo[27m[32ms[27m[32mt[27m[32mK[27m[32me[27m[32my[27m[32mA[27m[32ml[27m[32mg[27m[32mo[27m[32mr[27m[32mi[27m[32mt[27m[32mh[27m[32mm[27m[32ms[27m[32m=[27m[32m+[27m[32ms[27m[32ms[27m[32mh[27m[32m-[27m[32mr[27m[32ms[27m[32ma[39m[27m [27m[32m-[27m[32mo[27m[32mP[27m[32mu[27m[32mb[27m[32mk[27m[32me[27m[32my[27m[32mA[27m[32mc[27m[32mc[27m[32me[27m[32mp[27m[32mt[27m[32me[27m[32md[27m[32mK[27m[32me[27m[32my[27m[32mT[27m[32my[27m[32mp[27m[32me[27m[32ms[27m[32m=[27m[32m+[27m[32ms[27m[32ms[27m[32mh[27m[32m-[27m[32mr[27m[32ms[27m[32ma[39m[27m [27mm[27ms[27mf[27ma[27md[27mm[27mi[27mn[27m@1[27m9[27m2[27m.[27m1[27m6[27m8[27m.[27m2[27m2[27m9[27m.[27m1[27m3[27m0[1B[?1l>[?2004l
+msfadmin@192.168.229.130's password: 
+Permission denied, please try again.
+msfadmin@192.168.229.130's password: 
+Linux metasploitable 2.6.24-16-server #1 SMP Thu Apr 10 13:58:00 UTC 2008 i686
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+To access official Ubuntu documentation, please visit:
+http://help.ubuntu.com/
+No mail.
+Last login: Wed Oct 22 09:07:00 2025 from 192.168.229.129
+msfadmin@metasploitable:~$ ifocnfig 
+-bash: ifocnfig: command not found
+msfadmin@metasploitable:~$ ifocnfig          ifconfig
+eth0      Link encap:Ethernet  HWaddr 00:0c:29:f4:f7:ff  
+          inet addr:192.168.229.130  Bcast:192.168.229.255  Mask:255.255.255.0
+          inet6 addr: fe80::20c:29ff:fef4:f7ff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:4350 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:234 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:274286 (267.8 KB)  TX bytes:33333 (32.5 KB)
+          Interrupt:17 Base address:0x2000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:411 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:411 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:167873 (163.9 KB)  TX bytes:167873 (163.9 KB)
+
+msfadmin@metasploitable:~$                                      
