@@ -28,7 +28,7 @@ Found many open services (FTP, SSH, Telnet, SMB, ).
 Found available user accounts, workstation, domain details including msfadmin.
 
 
-###### screenshot and logs
+###### screenshot and logs  (please find it inside folder)
 
 
 enum4linuxSMB scan.txt
