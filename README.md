@@ -20,7 +20,7 @@ SMB enumeration (users, shares, host info):   enum4linux -a 192.168.229.130
 
 
 
-* ###### **Key findings (topline)**
+* ###### **Key findings **
 
 
 Found many open services (FTP, SSH, Telnet, SMB, ).
